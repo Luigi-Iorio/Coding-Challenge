@@ -1,0 +1,122 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* Formattazione body per applicare l'immagine di sfondo */
+body {
+  background-image: url(img/background.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Formattazione del container principale */
+main {
+  padding: 50px;
+  height: auto;
+  width: 1000px;
+  margin: 30px auto auto auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.558);
+}
+
+/* LOGO */
+/* Formattazione del contenitore del logo*/
+.logo {
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
+
+/* Formattazione per adattare il logo al suo contenitore */
+.logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* SOTTOTITOLI */
+/* Formattazione per i sottotitoli */
+.sottotitoli {
+  color: #00dd00;
+  margin-bottom: 5px;
+}
+
+/* BOTTONI */
+/* Formattazione per il contenitore dei bottoni */
+.bottoni {
+  width: 100%;
+  height: 50px;
+  background-color: #00dd00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Formattazione dei bottoni */
+.bottoni > button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+/* MONOPATTINI */
+/* Formattazione del container con le informazioni suddivise per monopattino */
+.elencoMonopattini {
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Formattazione dei singoli monopattini*/
+.elencoMonopattini .monopattino {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.elencoMonopattini .monopattino h3 {
+  font-size: 28px;
+}
+
+/* Formattazione per visualizzare lo stato della carica del monopattino */
+.elencoMonopattini .monopattino .statoCarica {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.elencoMonopattini .monopattino .uno {
+  width: 40%;
+  background-color: #f3ab49;
+}
+
+.elencoMonopattini .monopattino .due {
+  width: 60%;
+  background-color: #1cbb1c;
+}
+
+.elencoMonopattini .monopattino .tre {
+  width: 15%;
+  background-color: #b63939;
+}
